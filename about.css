@@ -1,0 +1,32 @@
+.master-about{
+    display: grid;
+    width: 100%;
+    margin: 2% 2% 2% 5%;
+}
+
+.renglon{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    max-height: 150px;
+    margin: 4% 0px;
+/*    overflow-y: hidden; /*  OCULTA LO QUE SOBRA */
+    background-color: rgb(183, 238, 129);
+    border-radius: 10px;
+    
+}
+
+.renglon2{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    max-height: 150px;
+    margin: 4% 0px;
+    background-color: rgb(183, 238, 129);
+    border-radius: 10px;
+
+}
+
+.description{
+    text-align: center;
+}
+
+

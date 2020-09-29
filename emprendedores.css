@@ -1,0 +1,19 @@
+.master{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    margin: 2% 2% 2% 10%;
+    
+}
+
+.card{
+    width: 30%;
+    margin: 5px 5px;
+    height: 350px;
+}
+
+.card-text{
+    /*como para que el scroll no aparezca en todos*/
+    overflow: scroll;
+    max-height: 4em;/* 4 veces la altura de la letra M*/
+}
